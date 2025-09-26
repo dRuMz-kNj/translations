@@ -1,0 +1,44 @@
+{
+    "notify": {
+        "cancel-rob": "Desististe de assaltar a caixa registadora",
+        "cooldown": "Isto parece má ideia - devia esperar um pouco",
+        "no-police": "Não há polícias suficientes na cidade",
+        "missing-item": "Acho que isto seria mais fácil se tivesse uma ferramenta",
+        "item-broke": "Partiste o lockpick e não conseguiste abrir a caixa",
+        "failed-hack": "Falhaste o *hack* ao computador",
+        "wrong-pin": "Isto não me parece certo... continua fechado",
+        "failed-limit": "Falhaste demasiadas vezes e não conseguiste assaltar a loja"
+    },
+    "target": {
+        "register": "Assaltar caixa",
+        "computer": "Iniciar sessão",
+        "safe": "Abrir"
+    },
+    "alerts": {
+        "note": {
+            "header": "**Nota Encontrada**",
+            "content": "Encontraste uma nota interessante por baixo da caixa registadora apenas com os seguintes números: %s"
+        },
+        "hack": {
+            "header": "**Código Descoberto**",
+            "content": "Conseguiste fazer *hack* ao computador e encontraste o seguinte código: %s"
+        }
+    },
+    "inputs": {
+        "questions": {
+            "header": "Perguntas de Segurança"
+        },
+        "safe": {
+            "header": "Cofre da Loja",
+            "label": "Introduzir PIN",
+            "desc": "Introduz o PIN para abrir o cofre",
+            "placeholder": "1234"
+        }
+    },
+    "logs": {
+        "register-robbed-title": "Caixa Registadora Assaltada",
+        "register-robbed-message": "%s (identificador: %s) assaltou com sucesso uma caixa registadora e obteve %s",
+        "safe-robbed-title": "Cofre Assaltado",
+        "safe-robbed-message": "%s (identificador: %s) assaltou com sucesso um cofre e obteve %s"
+    }
+}
